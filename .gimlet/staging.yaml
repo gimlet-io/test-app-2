@@ -15,7 +15,7 @@ values:
   ingress:
     host: test-app-2-demo.production.gimlet.io
     tlsEnabled: true
-  replicas: 2
+  replicas: 10
   vars:
     DUMMY_VAR: heyho
 strategicMergePatches: ""
